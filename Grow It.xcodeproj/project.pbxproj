@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B3A437A2A0C1180006DE92B /* Romarin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43792A0C1180006DE92B /* Romarin.swift */; };
+		9B3A437C2A0C1C3C006DE92B /* Origan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A437B2A0C1C3C006DE92B /* Origan.swift */; };
+		9B3A437E2A0C21BB006DE92B /* Estragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A437D2A0C21BB006DE92B /* Estragon.swift */; };
+		9B3A43802A0CDB42006DE92B /* Ail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A437F2A0CDB42006DE92B /* Ail.swift */; };
+		9B3A43822A0D121A006DE92B /* Sauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43812A0D121A006DE92B /* Sauge.swift */; };
+		9B3A43842A0D1367006DE92B /* Menthe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43832A0D1367006DE92B /* Menthe.swift */; };
+		9B3A43862A0D14F1006DE92B /* Persil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43852A0D14F1006DE92B /* Persil.swift */; };
+		9B3A43882A0D1507006DE92B /* Thym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43872A0D1507006DE92B /* Thym.swift */; };
+		9B3A438A2A0D22A4006DE92B /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43892A0D22A4006DE92B /* FAQ.swift */; };
+		9B3A438C2A0D22C2006DE92B /* UBPrendresoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A438B2A0D22C2006DE92B /* UBPrendresoin.swift */; };
+		9B3A438E2A0D22C9006DE92B /* UBEnvironnement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A438D2A0D22C9006DE92B /* UBEnvironnement.swift */; };
+		9B3A43902A0D22CF006DE92B /* UBTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A438F2A0D22CF006DE92B /* UBTechnique.swift */; };
+		9B3A43922A0D3758006DE92B /* UBRecyclage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43912A0D3758006DE92B /* UBRecyclage.swift */; };
+		9B3A43942A0E2878006DE92B /* creationprofil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43932A0E2877006DE92B /* creationprofil.swift */; };
+		9B3A43962A0E287D006DE92B /* MonCompte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A43952A0E287D006DE92B /* MonCompte.swift */; };
+		9B89F8DF2A0E631600C8C132 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8DE2A0E631600C8C132 /* PageModel.swift */; };
+		9B89F8E12A0E632100C8C132 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8E02A0E632100C8C132 /* PageView.swift */; };
+		9B89F8E32A0E632800C8C132 /* OnBoardingTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8E22A0E632800C8C132 /* OnBoardingTotal.swift */; };
+		9B89F8E52A0E66CD00C8C132 /* TabPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8E42A0E66CD00C8C132 /* TabPanel.swift */; };
+		9B89F8E72A0E7CE500C8C132 /* Laurier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8E62A0E7CE500C8C132 /* Laurier.swift */; };
+		9B89F8E92A0E7E3D00C8C132 /* Gingembre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8E82A0E7E3D00C8C132 /* Gingembre.swift */; };
+		9B89F8EB2A0E814600C8C132 /* Hysope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8EA2A0E814600C8C132 /* Hysope.swift */; };
+		9B89F8ED2A0E850800C8C132 /* Verveine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8EC2A0E850800C8C132 /* Verveine.swift */; };
+		9B89F8EF2A0E87CB00C8C132 /* Fenugrec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8EE2A0E87CB00C8C132 /* Fenugrec.swift */; };
+		9B89F8F12A0E8DC300C8C132 /* CataloguePageA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89F8F02A0E8DC300C8C132 /* CataloguePageA.swift */; };
+		9B98E5AF2A12222C000F4510 /* VosHerbes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B98E5AE2A12222C000F4510 /* VosHerbes.swift */; };
+		9BA639FC29F6AE6900397654 /* Grow_ItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA639FB29F6AE6900397654 /* Grow_ItApp.swift */; };
+		9BA639FE29F6AE6900397654 /* MapUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA639FD29F6AE6900397654 /* MapUserView.swift */; };
+		9BA63A0029F6AE6B00397654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA639FF29F6AE6B00397654 /* Assets.xcassets */; };
+		9BA63A0329F6AE6B00397654 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA63A0229F6AE6B00397654 /* Preview Assets.xcassets */; };
+		9BA63A1329F7E3AA00397654 /* HomePlants.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BA63A1229F7E3AA00397654 /* HomePlants.ttf */; };
+		9BA63A1729F805F900397654 /* BasilicGV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA63A1629F805F900397654 /* BasilicGV.swift */; };
+		9BA63A3229FC023F00397654 /* Herbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA63A3129FC023F00397654 /* Herbs.swift */; };
+		9BA63A3429FC029500397654 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA63A3329FC029500397654 /* Question.swift */; };
+		9BA63A3629FC02B400397654 /* Profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA63A3529FC02B400397654 /* Profil.swift */; };
+		9BA63A422A0A789100397654 /* Aneth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA63A412A0A789100397654 /* Aneth.swift */; };
+		9BA63A442A0A911600397654 /* Ciboulette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA63A432A0A911600397654 /* Ciboulette.swift */; };
+		9BFB248E2A0E4AE500BA52CE /* Grow-It-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BFB248D2A0E4AE500BA52CE /* Grow-It-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B3A43792A0C1180006DE92B /* Romarin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Romarin.swift; sourceTree = "<group>"; };
+		9B3A437B2A0C1C3C006DE92B /* Origan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Origan.swift; sourceTree = "<group>"; };
+		9B3A437D2A0C21BB006DE92B /* Estragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estragon.swift; sourceTree = "<group>"; };
+		9B3A437F2A0CDB42006DE92B /* Ail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ail.swift; sourceTree = "<group>"; };
+		9B3A43812A0D121A006DE92B /* Sauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sauge.swift; sourceTree = "<group>"; };
+		9B3A43832A0D1367006DE92B /* Menthe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menthe.swift; sourceTree = "<group>"; };
+		9B3A43852A0D14F1006DE92B /* Persil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persil.swift; sourceTree = "<group>"; };
+		9B3A43872A0D1507006DE92B /* Thym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thym.swift; sourceTree = "<group>"; };
+		9B3A43892A0D22A4006DE92B /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		9B3A438B2A0D22C2006DE92B /* UBPrendresoin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBPrendresoin.swift; sourceTree = "<group>"; };
+		9B3A438D2A0D22C9006DE92B /* UBEnvironnement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBEnvironnement.swift; sourceTree = "<group>"; };
+		9B3A438F2A0D22CF006DE92B /* UBTechnique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBTechnique.swift; sourceTree = "<group>"; };
+		9B3A43912A0D3758006DE92B /* UBRecyclage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBRecyclage.swift; sourceTree = "<group>"; };
+		9B3A43932A0E2877006DE92B /* creationprofil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = creationprofil.swift; sourceTree = "<group>"; };
+		9B3A43952A0E287D006DE92B /* MonCompte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonCompte.swift; sourceTree = "<group>"; };
+		9B89F8DE2A0E631600C8C132 /* PageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		9B89F8E02A0E632100C8C132 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		9B89F8E22A0E632800C8C132 /* OnBoardingTotal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingTotal.swift; sourceTree = "<group>"; };
+		9B89F8E42A0E66CD00C8C132 /* TabPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPanel.swift; sourceTree = "<group>"; };
+		9B89F8E62A0E7CE500C8C132 /* Laurier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laurier.swift; sourceTree = "<group>"; };
+		9B89F8E82A0E7E3D00C8C132 /* Gingembre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gingembre.swift; sourceTree = "<group>"; };
+		9B89F8EA2A0E814600C8C132 /* Hysope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hysope.swift; sourceTree = "<group>"; };
+		9B89F8EC2A0E850800C8C132 /* Verveine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verveine.swift; sourceTree = "<group>"; };
+		9B89F8EE2A0E87CB00C8C132 /* Fenugrec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fenugrec.swift; sourceTree = "<group>"; };
+		9B89F8F02A0E8DC300C8C132 /* CataloguePageA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CataloguePageA.swift; sourceTree = "<group>"; };
+		9B98E5AE2A12222C000F4510 /* VosHerbes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VosHerbes.swift; sourceTree = "<group>"; };
+		9BA639F829F6AE6900397654 /* Grow It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grow It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA639FB29F6AE6900397654 /* Grow_ItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grow_ItApp.swift; sourceTree = "<group>"; };
+		9BA639FD29F6AE6900397654 /* MapUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUserView.swift; sourceTree = "<group>"; };
+		9BA639FF29F6AE6B00397654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA63A0229F6AE6B00397654 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BA63A1229F7E3AA00397654 /* HomePlants.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomePlants.ttf; sourceTree = "<group>"; };
+		9BA63A1629F805F900397654 /* BasilicGV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasilicGV.swift; sourceTree = "<group>"; };
+		9BA63A3129FC023F00397654 /* Herbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Herbs.swift; sourceTree = "<group>"; };
+		9BA63A3329FC029500397654 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9BA63A3529FC02B400397654 /* Profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profil.swift; sourceTree = "<group>"; };
+		9BA63A412A0A789100397654 /* Aneth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aneth.swift; sourceTree = "<group>"; };
+		9BA63A432A0A911600397654 /* Ciboulette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ciboulette.swift; sourceTree = "<group>"; };
+		9BFB248D2A0E4AE500BA52CE /* Grow-It-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Grow-It-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA639F529F6AE6900397654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B89F8D92A0E622700C8C132 /* Herbs */ = {
+			isa = PBXGroup;
+			children = (
+				9B89F8F02A0E8DC300C8C132 /* CataloguePageA.swift */,
+				9B98E5AE2A12222C000F4510 /* VosHerbes.swift */,
+				9BA63A3129FC023F00397654 /* Herbs.swift */,
+				9B3A437F2A0CDB42006DE92B /* Ail.swift */,
+				9BA63A412A0A789100397654 /* Aneth.swift */,
+				9BA63A1629F805F900397654 /* BasilicGV.swift */,
+				9BA63A432A0A911600397654 /* Ciboulette.swift */,
+				9B3A437D2A0C21BB006DE92B /* Estragon.swift */,
+				9B89F8EE2A0E87CB00C8C132 /* Fenugrec.swift */,
+				9B89F8E82A0E7E3D00C8C132 /* Gingembre.swift */,
+				9B89F8EA2A0E814600C8C132 /* Hysope.swift */,
+				9B89F8E62A0E7CE500C8C132 /* Laurier.swift */,
+				9B3A43832A0D1367006DE92B /* Menthe.swift */,
+				9B3A43852A0D14F1006DE92B /* Persil.swift */,
+				9B3A437B2A0C1C3C006DE92B /* Origan.swift */,
+				9B3A43792A0C1180006DE92B /* Romarin.swift */,
+				9B3A43812A0D121A006DE92B /* Sauge.swift */,
+				9B3A43872A0D1507006DE92B /* Thym.swift */,
+				9B89F8EC2A0E850800C8C132 /* Verveine.swift */,
+			);
+			path = Herbs;
+			sourceTree = "<group>";
+		};
+		9B89F8DA2A0E624900C8C132 /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				9B3A43932A0E2877006DE92B /* creationprofil.swift */,
+				9BA63A3529FC02B400397654 /* Profil.swift */,
+				9B3A43952A0E287D006DE92B /* MonCompte.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
+		9B89F8DB2A0E625E00C8C132 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9BA639FB29F6AE6900397654 /* Grow_ItApp.swift */,
+				9BA639FD29F6AE6900397654 /* MapUserView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9B89F8DC2A0E628C00C8C132 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				9B3A43892A0D22A4006DE92B /* FAQ.swift */,
+				9B3A438B2A0D22C2006DE92B /* UBPrendresoin.swift */,
+				9B3A43912A0D3758006DE92B /* UBRecyclage.swift */,
+				9B3A438D2A0D22C9006DE92B /* UBEnvironnement.swift */,
+				9B3A438F2A0D22CF006DE92B /* UBTechnique.swift */,
+				9BA63A3329FC029500397654 /* Question.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		9B89F8DD2A0E62AD00C8C132 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9B89F8DE2A0E631600C8C132 /* PageModel.swift */,
+				9B89F8E02A0E632100C8C132 /* PageView.swift */,
+				9B89F8E22A0E632800C8C132 /* OnBoardingTotal.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9BA639EF29F6AE6900397654 = {
+			isa = PBXGroup;
+			children = (
+				9BA639FA29F6AE6900397654 /* Grow It */,
+				9BA639F929F6AE6900397654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA639F929F6AE6900397654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA639F829F6AE6900397654 /* Grow It.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA639FA29F6AE6900397654 /* Grow It */ = {
+			isa = PBXGroup;
+			children = (
+				9BFB248D2A0E4AE500BA52CE /* Grow-It-Info.plist */,
+				9B89F8E42A0E66CD00C8C132 /* TabPanel.swift */,
+				9B89F8DD2A0E62AD00C8C132 /* Onboarding */,
+				9B89F8DB2A0E625E00C8C132 /* Map */,
+				9B89F8DA2A0E624900C8C132 /* Profil */,
+				9B89F8D92A0E622700C8C132 /* Herbs */,
+				9B89F8DC2A0E628C00C8C132 /* FAQ */,
+				9BA639FF29F6AE6B00397654 /* Assets.xcassets */,
+				9BA63A0129F6AE6B00397654 /* Preview Content */,
+			);
+			path = "Grow It";
+			sourceTree = "<group>";
+		};
+		9BA63A0129F6AE6B00397654 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BA63A1229F7E3AA00397654 /* HomePlants.ttf */,
+				9BA63A0229F6AE6B00397654 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA639F729F6AE6900397654 /* Grow It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA63A0629F6AE6B00397654 /* Build configuration list for PBXNativeTarget "Grow It" */;
+			buildPhases = (
+				9BA639F429F6AE6900397654 /* Sources */,
+				9BA639F529F6AE6900397654 /* Frameworks */,
+				9BA639F629F6AE6900397654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grow It";
+			productName = "Grow It";
+			productReference = 9BA639F829F6AE6900397654 /* Grow It.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA639F029F6AE6900397654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9BA639F729F6AE6900397654 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 9BA639F329F6AE6900397654 /* Build configuration list for PBXProject "Grow It" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA639EF29F6AE6900397654;
+			productRefGroup = 9BA639F929F6AE6900397654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA639F729F6AE6900397654 /* Grow It */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA639F629F6AE6900397654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA63A1329F7E3AA00397654 /* HomePlants.ttf in Resources */,
+				9BA63A0329F6AE6B00397654 /* Preview Assets.xcassets in Resources */,
+				9BFB248E2A0E4AE500BA52CE /* Grow-It-Info.plist in Resources */,
+				9BA63A0029F6AE6B00397654 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA639F429F6AE6900397654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3A437A2A0C1180006DE92B /* Romarin.swift in Sources */,
+				9B3A437C2A0C1C3C006DE92B /* Origan.swift in Sources */,
+				9B3A438C2A0D22C2006DE92B /* UBPrendresoin.swift in Sources */,
+				9BA63A3629FC02B400397654 /* Profil.swift in Sources */,
+				9BA639FE29F6AE6900397654 /* MapUserView.swift in Sources */,
+				9B3A43802A0CDB42006DE92B /* Ail.swift in Sources */,
+				9B3A43882A0D1507006DE92B /* Thym.swift in Sources */,
+				9B3A43822A0D121A006DE92B /* Sauge.swift in Sources */,
+				9B3A43942A0E2878006DE92B /* creationprofil.swift in Sources */,
+				9B3A43902A0D22CF006DE92B /* UBTechnique.swift in Sources */,
+				9B89F8E32A0E632800C8C132 /* OnBoardingTotal.swift in Sources */,
+				9B3A43862A0D14F1006DE92B /* Persil.swift in Sources */,
+				9B89F8ED2A0E850800C8C132 /* Verveine.swift in Sources */,
+				9B3A438A2A0D22A4006DE92B /* FAQ.swift in Sources */,
+				9B3A43962A0E287D006DE92B /* MonCompte.swift in Sources */,
+				9B3A437E2A0C21BB006DE92B /* Estragon.swift in Sources */,
+				9B89F8F12A0E8DC300C8C132 /* CataloguePageA.swift in Sources */,
+				9B3A438E2A0D22C9006DE92B /* UBEnvironnement.swift in Sources */,
+				9B89F8E72A0E7CE500C8C132 /* Laurier.swift in Sources */,
+				9BA63A3229FC023F00397654 /* Herbs.swift in Sources */,
+				9B89F8DF2A0E631600C8C132 /* PageModel.swift in Sources */,
+				9BA63A3429FC029500397654 /* Question.swift in Sources */,
+				9B3A43842A0D1367006DE92B /* Menthe.swift in Sources */,
+				9BA639FC29F6AE6900397654 /* Grow_ItApp.swift in Sources */,
+				9B89F8E12A0E632100C8C132 /* PageView.swift in Sources */,
+				9B89F8EF2A0E87CB00C8C132 /* Fenugrec.swift in Sources */,
+				9BA63A422A0A789100397654 /* Aneth.swift in Sources */,
+				9B89F8E92A0E7E3D00C8C132 /* Gingembre.swift in Sources */,
+				9B3A43922A0D3758006DE92B /* UBRecyclage.swift in Sources */,
+				9B98E5AF2A12222C000F4510 /* VosHerbes.swift in Sources */,
+				9BA63A1729F805F900397654 /* BasilicGV.swift in Sources */,
+				9B89F8EB2A0E814600C8C132 /* Hysope.swift in Sources */,
+				9BA63A442A0A911600397654 /* Ciboulette.swift in Sources */,
+				9B89F8E52A0E66CD00C8C132 /* TabPanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BA63A0429F6AE6B00397654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BA63A0529F6AE6B00397654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA63A0729F6AE6B00397654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grow It/Preview Content\"";
+				DEVELOPMENT_TEAM = 9NC3FAK33U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grow-It-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nnena.Grow-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BA63A0829F6AE6B00397654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grow It/Preview Content\"";
+				DEVELOPMENT_TEAM = 9NC3FAK33U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grow-It-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nnena.Grow-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA639F329F6AE6900397654 /* Build configuration list for PBXProject "Grow It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA63A0429F6AE6B00397654 /* Debug */,
+				9BA63A0529F6AE6B00397654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA63A0629F6AE6B00397654 /* Build configuration list for PBXNativeTarget "Grow It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA63A0729F6AE6B00397654 /* Debug */,
+				9BA63A0829F6AE6B00397654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA639F029F6AE6900397654 /* Project object */;
+}
